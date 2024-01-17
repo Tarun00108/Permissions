@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Pm"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:text="Permission"></Button>
+
+        <Button
+            android:id="@+id/CM"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="45dp"
+            android:text="Camera"></Button>
+
+        <Button
+            android:id="@+id/CT"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="45dp"
+            android:text="Contacts"></Button>
+
+        <Button
+            android:id="@+id/GY"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="45dp"
+            android:text="Gallery"></Button>
+
+        <Button
+            android:id="@+id/FM"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="45dp"
+            android:text="FileManager"></Button>
+    </LinearLayout>
+</FrameLayout>
